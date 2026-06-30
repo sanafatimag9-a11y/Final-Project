@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+
+# MLflow and model artifacts
+mlruns/
+models/
+artifacts/
+*.pkl
+*.joblib
+*.onnx
+
+# Data files that should be tracked by DVC, not Git
+data/raw/*
+data/processed/*
+data/reference/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/reference/.gitkeep
+
+# Reports generated during runs
+reports/evaluation/*
+reports/drift/*
+reports/model-cards/*
+!reports/evaluation/.gitkeep
+!reports/drift/.gitkeep
+!reports/model-cards/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

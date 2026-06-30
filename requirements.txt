@@ -1,0 +1,5 @@
+# Core runtime dependencies for early project phases.
+# Additional ML, Azure, and API packages will be added in later phases.
+
+python-dotenv==1.0.1
+PyYAML==6.0.2
