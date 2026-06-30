@@ -1,10 +1,12 @@
 # Build a Real-World MLOps CI/CD Pipeline on Azure
 
+A real-world Azure MLOps project that automates model training, testing, deployment, monitoring, and rollback for a breast cancer classification model.
+
 This repository is an end-to-end beginner-friendly MLOps project using Python, Azure, GitHub Actions, Docker, FastAPI, MLflow, Evidently AI, and OpenRouter.
 
 ## Current Phase
 
-Phase 2 complete. Next: Phase 3 — GitHub repository setup.
+Phase 3: GitHub repository setup.
 
 No Azure resources have been created yet. Application code for training, API, and deployment has not been written yet.
 
